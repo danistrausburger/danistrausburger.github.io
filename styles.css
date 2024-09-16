@@ -1,0 +1,137 @@
+header {
+    background-color: #e2bfd9;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    overflow: hidden;
+}
+
+#logo {
+    height: 50px;
+    padding: 5px;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #49243e;
+}
+
+#navbar li a:hover {
+    background-color: #704264;
+    color: #ffffff;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#about-me {
+    background-color: #b694ae;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#about-me h1 {
+    font-size: xx-large;
+    color:#49243e;
+}
+
+.about-info {
+    height: 200px;
+    width: 250px;
+    padding: 15px;
+    font-size: larger;
+}
+
+#headshot {
+    padding: 10px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#background, #project-section dl {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#background div {
+    height: 220px;
+    width: 220px;
+    padding: 15px;
+    margin: 16px;
+}
+
+#honors, #prog-skills {
+    background-color: #704264;
+    color: white;
+}
+
+#rel-courses, #skills {
+    background-color: #e2bfd9;
+}
+
+#resume {
+    padding: 5px 30px 5px 30px;
+    width: 60%;
+    margin: auto;
+    background-color: #b694ae;
+}
+
+.job, .project {
+    font-size: larger;
+    margin-bottom: 0;
+}
+
+.location {
+    font-size: large;
+    margin: 0;
+}
+
+.date {
+    margin-top: 0;
+}
+
+#project-section {
+    background-image: linear-gradient(#49243e, #966e8b);
+    padding: 5px;
+    margin: 5px 5px;
+}
+
+#projects div {
+    height: 175px;
+    width: 215px;
+    padding: 15px;
+    margin: 10px;
+    background-image: linear-gradient(#e2bfd9, #b694ae);
+}
+
+.project-details {
+    padding-bottom: 10px;
+}
+
+.footer-link {
+    color:#49243e;
+}
+
+footer {
+    background-color: #e2bfd9;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-size: large;
+}

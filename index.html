@@ -4,56 +4,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dani Strausburger</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1 style="text-align: center; color:purple">Dani Strausburger</h1>
-        <p>I am a senior Computer Science major at Elizabethtown College.
-            I have a minor in Graphic Design, and have a passion for Web Design and Development.</p>
-        <hr>
+        <nav>
+            <ul id="navbar">
+                <li style="float: right;">
+                    <img src="images/logo.png" alt="DSS Logo" id="logo">
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <h2 style="text-align: center;">About Me</h2>
-        <h4>My Current Courses:</h4>
-        <ul>
-            <li>CS 310 - Web Development</li>
-            <li>ART 325 - Designing for the Web & Social Media</li>
-            <li>ES 113 - Earth in Space</li>
-            <li>CS 401 - Senior Capstone</li>
-            <li>PE 100 - Yoga & Pilates</li>
-        </ul>
+        
+        <section id="about-me">
+            <div>
+                <h1>Hi, I'm Dani.</h1>
+                <p class="about-info">I am a senior Computer Science major at Elizabethtown College.
+                    I have a minor in Graphic Design, and have a passion for Web Design and Development.</p>
+            </div>
+            <img src="images/dani_headshot.jpg" alt="Headshot" id="headshot">
+            
+        </section>
 
-        <h4>My Top Artists:</h4>
-        <ol>
-            <li><a href="https://open.spotify.com/artist/5IH6FPUwQTxPSXurCrcIov" target="_blank">Alec Benjamin</a></li>
-            <li>Elton John</li>
-            <li>Chappel Roan</li>
-            <li>Hozier</li>
-        </ol>
-        <br>
+        <section id="background">
+            <div id="rel-courses">
+                <h3>Relevant Courses:</h3>
+                <ul>
+                    <li>Computer Science 1</li>
+                    <li>Computer Science 2</li>
+                    <li>Database Systems</li>
+                    <li>Data Structures</li>
+                    <li>Systems Programming</li>
+                    <li>Software Engineering</li>
+                    <li>Algorithms</li>
+                    <li>Web Development (Fall 24)</li>
+                </ul>
+            </div>
 
-        <h4 style="text-align: center;">Picture Representations of My Moods:</h4>
-        <table style="margin-left: auto; margin-right: auto;">
-            <tbody>
-                <tr>
-                    <td>
-                        Happy: <img src="images/joy.jpg" alt="My happy image: Joy from Inside Out" height="150">
-                        Sad: <img src="images/sadness.jpg" alt="My sad image: Sadness from Inside Out" height="150">
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <br><br>
+            <div id="prog-skills">
+                <h3>Programming Skills:</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>C</li>
+                    <li>Git</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                </ul>
+            </div>
 
-        <h4>Fun Facts About My Neighbors:</h4>
-        <p>Steph was my summer roommate!</p>
-        <p>Isabel has five dogs!</p>
-        <br><br><br>
+            <div id="skills">
+                <h3>Other Skills:</h3>
+                <ul>
+                    <li>Leadership</li>
+                    <li>Teamwork</li>
+                    <li>Public Speaking</li>
+                    <li>Debugging</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe InDesign</li>
+                    <li>Adobe Lightroom</li>
+                </ul>
+            </div>
+
+            <div id="honors">
+                <h3>Honors & Awards:</h3>
+                <ul>
+                    <li>2022, 2023 & 2024 Computer Science Faculty Student Award</li>
+                    <li>2024 Women in Tech Scholarship Recipient</li>
+                    <li>Dean's List</li>
+                    <li>Presidential Scholarship</li>
+                    <li>Mosaic Scholar</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr>
+        <h2 style="text-align: center;">Experience</h2>
+
+        <div id="resume">
+            
+            <div id="mca">
+                <p class="job"><b>Lead Teaching Assistant</b></p>
+                <p class="location">Elizabethtown College</p>
+                <p class="date">June 2024 - August 2024</p>
+                <ul>
+                    <li>Aided in instruction of coding languages and activities.</li>
+                    <li>Taught HTML and CSS lessons and guided in web activities.</li>
+                </ul>
+            </div>
+            <div id="tutor">
+                <p class="job"><b>Computer Science Tutor</b></p>
+                <p class="location">Elizabethtown College</p>
+                <p class="date">August 2022 - Present</p>
+                <ul>
+                    <li>Created personalized instruction to optimize student learning outcomes.</li>
+                    <li>Delivered support outside of the classroom for CS1, CS2, Database Systems,
+                        Data Structures, Systems Programming, Software Engineering, and Algorithms.
+                    </li>
+                </ul>
+            </div>
+            <div id="techops">
+                <p class="job"><b>Technical Operations Assistant</b></p>
+                <p class="location">Elizabethtown College</p>
+                <p class="date">September 2022 - Present</p>
+                <ul>
+                    <li>Managed technical operations for on-campus events.</li>
+                    <li>Led Front of House team during events.</li>
+                    <li>Managed guest relations and experiences.</li>
+                </ul>
+            </div>
+            <div id="ta">
+                <p class="job"><b>Computer Science Teaching Assistant</b></p>
+                <p class="location">Elizabethtown College</p>
+                <p class="date">January 2022 - Present</p>
+                <ul>
+                    <li>Assisted with lab sessions Computer Science 1.</li>
+                    <li>Aided students in understanding existing codebanks for Software Engineering project.</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+        <h2 style="text-align: center;">Projects</h2>
+
+        <div id="project-section">
+            <dl id="projects">
+                <div id="gamers">
+                    <dt class="project"><b>Trivia Games</b></dt>
+                    <dt class="project-details">August 2023 - Present</dt>
+                    <dd class="project-details">Created trivia games website to provide school with fun outreach activity.</dd>
+                    <dd class="project-details"><b>Skills:</b> CSS, HTML, PHP, JavaScript, SQL</dd>
+                </div>
+                
+                <div id="pantry">
+                    <dt class="project"><b>Blue Jay Pantry</b></dt>
+                    <dt class="project-details">August 2023 - December 2023</dt>
+                    <dd class="project-details">Added the ability to change the site appearance based on use specific preferences.</dd>
+                    <dd class="project-details"><b>Skills:</b> CSS, PHP, SQL</dd>
+                </div>
+                
+                <div id="baseball">
+                    <dt class="project"><b>Baseball Hall of Fame</b></dt>
+                    <dt class="project-details">October 2022 - November 2022</dt>
+                    <dd class="project-details">Designed database driven baseball hall of fame website.</dd>
+                    <dd class="project-details"><b>Skills:</b> HTML, PHP, SQL</dd>
+                </div>
+            </dl>
+        </div>
+        <hr>
         
     </main>
     <footer>
         <p>Created in Fall 2024.</p>
-        <p>Connect with me on <a href="https://github.com/danistrausburger" target="_blank">Github</a>.</p>
+        <p style="margin-bottom: 0;">Connect with me on <a href="https://github.com/danistrausburger" target="_blank" class="footer-link">Github</a> and <a href="https://www.linkedin.com/in/danistrausburger" class="footer-link" target="_blank">LinkedIn</a>.</p>
     </footer>
 </body>
 </html>
